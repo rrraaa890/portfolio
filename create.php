@@ -65,7 +65,6 @@ if(!empty($_POST["create"]) && !empty($_POST["title"]) && !empty($_POST["news"])
     
     //エラーメッセージを出力
     echo $e->getMessage();
-    echo "touroku";
     
     //ロールバック
     $pdo->rollBack();
